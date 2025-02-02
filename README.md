@@ -5,7 +5,7 @@
 5개 작업 라인에 대한 실시간 생산 관리 시스템으로, 오일/마감재/라벨 선택과 자재 정보 표시 기능을 포함
 
 ## 📄 라이선스
-[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)]
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 
 ## ✨ 핵심 기능
