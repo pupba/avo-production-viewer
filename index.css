@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100..900&display=swap');
+.container {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Jua',serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+#work{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    height: 20px;
+}
+#tables{
+    table-layout:auto;
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    box-shadow: 0 1px 12px rgba(0,0,0,0.1);
+}
+td {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+  
+th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #2c3e50;
+}
+#info{
+    height: 60px;
+}
+#top-seal{
+    height: 100px;
+}
+#label{
+    height: 100px;
+}
+.sub-con{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.label-img-selector{
+    margin: 8px;
+}
+#production{
+    height: 60px;
+}
+.company-con{
+    height: 60px;
+}
+/* input */
+.info{
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Jua',serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.count{
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Jua',serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+}
+.company{
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Jua',serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 10px;
+}
+/* select */
+.oil-selector{
+    width: 300px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Jua',serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.top-seal-selector{
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Jua',serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.label-selector{
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Jua',serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
