@@ -5,7 +5,7 @@ const oils = [
     {id:"2",name:"올리브 엑스트라버진",path:"./images/oil/올리브엑스트라버진.png"},
     {id:"3",name:"올리브 포마스",path:"./images/oil/올리브포마스.png"},
     {id:"4",name:"트러플 오일",path:"./images/oil/트러플오일.png"},
-    {id:"5",name:"해마라기",path:"./images/oil/해바라기.png"},
+    {id:"5",name:"해바라기",path:"./images/oil/해바라기.png"},
 ]
 
 const oilSelector = document.querySelectorAll(".oil-selector");
