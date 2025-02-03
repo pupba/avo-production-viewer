@@ -48,10 +48,12 @@ topSealSelector.forEach((selector,index)=>{
 
 // 라벨
 const labels = [
-    {id:"0",name:"없음",path:""},
-    {id:"1",group:"업체1",name:"업체1-라벨1",path:"./images/labels/1.png"},
-    {id:"2",group:"업체1",name:"업체1-라벨2",path:"./images/labels/2.png"},
-    {id:"3",group:"업체2",name:"업체2-라벨3",path:"./images/labels/3.png"}
+    {id:"0",group:"없음",name:"없음",path:""},
+    {id:"1",group:"에스엠디",name:"아보카도",path:"./images/labels/에스엠디-아보카도.png"},
+    {id:"2",group:"올가유",name:"아보카도",path:"./images/labels/올가유-아보카도.png"},
+    {id:"3",group:"제이에스팜",name:"아보카도",path:"./images/labels/제이에스팜-아보카도.png"},
+    {id:"4",group:"태웅(홈쇼핑)",name:"아보카도",path:"./images/labels/태웅(홈쇼핑)-아보카도.png"},
+    {id:"5",group:"파니몰",name:"아보카도",path:"./images/labels/파니몰-아보카도.png"},
 ];
 
 const labelSelector = document.querySelectorAll(".label-selector");
