@@ -1,3 +1,19 @@
+// Input Comma
+const inputs = document.querySelectorAll('.count');
+inputs.forEach(input=>{
+    input.addEventListener("keyup",(e)=>{
+        let value = e.target.value;
+        value = Number(value.replaceAll(',', ''));
+        if(isNaN(value)) {
+          input.value = 0;
+        }else {
+          const formatValue = value.toLocaleString('ko-KR');
+          input.value = formatValue;
+        }
+    })
+});
+
+
 // 루땡 (topSeal 관련 부분은 수정하지 않음)
 const topSeals = [
     {id:"0", name:"없음", path:""},
