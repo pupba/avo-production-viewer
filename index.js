@@ -52,7 +52,7 @@ const companies = [
 const oils = [
     {id:"0", name:"없음"},
     {id:"1", name:"대마종자유"},
-    {id:"2", name:"발사믹식초"},
+    {id:"2", name:"발사믹"},
     {id:"3", name:"아보카도 엑스트라버진"},
     {id:"4", name:"올리브 엑스트라버진"},
     {id:"5", name:"올리브 포마스"},
@@ -101,7 +101,7 @@ const labelInfo = [
     // 올레오랩
     {company: "올레오랩", oil: "아보카도 엑스트라버진", version: "", path: "./images/labels/올레오랩/아보카도.jpg"},
     {company: "올레오랩", oil: "발사믹", version: "", path: "./images/labels/올레오랩/발사믹.jpg"},
-    {company: "올레오랩", oil: "올리프 포마스", version: "", path: "./images/labels/올레오랩/올리프포.jpg"},
+    {company: "올레오랩", oil: "올리브 포마스", version: "", path: "./images/labels/올레오랩/올리브포.jpg"},
     // 제이에스팜
     {company: "제이에스팜", oil: "아보카도 엑스트라버진", version: "1", path: "./images/labels/제이에스팜/아보카도1.jpg"},
     {company: "제이에스팜", oil: "아보카도 엑스트라버진", version: "2", path: "./images/labels/제이에스팜/아보카도2.jpg"},
@@ -220,11 +220,13 @@ oilSelector.forEach((selector, index) => {
                 labelImgSelector[index].src = selectedLabel.path;
                 labelImgSelector[index].alt = `${selectedCompany.name} ${selectedOil.name} ${selectedVersion} 라벨`;
                 
-                // 오일 이미지 경로 설정
-                const oilPath = `./oil/${selectedCompany.name}/${selectedOil.name}${selectedVersion}.jpg`;
+                // 오일 이미지 경로 설정 - 버전에 맞게 경로 설정
+                const oilPath = `./images/oil/${selectedCompany.name}/${selectedOil.name}${selectedVersion}.png`;
                 oilImgSelector[index].src = oilPath;
+                oilImgSelector[index].width=300;
                 oilImgSelector[index].alt = `${selectedCompany.name} ${selectedOil.name} ${selectedVersion} 오일`;
             });
+
             
             // 기본 첫 번째 버전 선택
             versionSelect.dispatchEvent(new Event('change'));
@@ -244,8 +246,9 @@ oilSelector.forEach((selector, index) => {
             labelImgSelector[index].alt = `${selectedCompany.name} ${selectedOil.name} 라벨`;
             
             // 오일 이미지 경로 설정
-            const oilPath = `./oil/${selectedCompany.name}/${selectedOil.name}.jpg`;
+            const oilPath = `./images/oil/${selectedCompany.name}/${selectedOil.name}.png`;
             oilImgSelector[index].src = oilPath;
+            oilImgSelector[index].width=300;
             oilImgSelector[index].alt = `${selectedCompany.name} ${selectedOil.name} 오일`;
         }
     });
