@@ -13,11 +13,6 @@ inputs.forEach(input=>{
     })
 });
 
-// Print page
-const printPage = () =>{
-    window.print();
-}
-
 // 루땡 (topSeal 관련 부분은 수정하지 않음)
 const topSeals = [
     {id:"0", name:"없음", path:""},
