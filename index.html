@@ -9,198 +9,95 @@
 </head>
 <body>
     <div class="container">
-        <h1>생산 내용 Display</h1>
-        <table id="tables" border="1px" table-layout="fixed">
-            <tr id="work">
-                <td colspan="2" align="center">작업1</td>
-                <td colspan="2" align="center">작업2</td>
-                <td colspan="2" align="center">작업3</td>
-                <td colspan="2" align="center">작업4</td>
-                <td colspan="2" align="center">작업5</td>
-            </tr>
-            <!--오일,업체명-->
+        <h1>오일 선택기</h1>
+        
+        <table>
             <tr>
-                <!--이미지,업체명-->
-                <td rowspan="5">
-                    <img class="oil-img-selector" src="" alt="오일 선택"><br>
-                    <select class="oil-selector"></select>
-                </td>
-                <td class="company-con">
-                    <label>업체명</label>
-                    <input class="company" type="text">
-                </td>
-
-                <td rowspan="5">
-                    <img class="oil-img-selector" src="" alt="오일 선택"><br>
-                    <select class="oil-selector"></select>
-                </td>
-                <td class="company-con">
-                    <label>업체명</label>
-                    <input class="company" type="text">
-                </td>
-
-                <td rowspan="5">
-                    <img class="oil-img-selector" src="" alt="오일 선택"><br>
-                    <select class="oil-selector"></select>
-                </td>
-                <td class="company-con">
-                    <label>업체명</label>
-                    <input class="company" type="text">
-                </td>
-
-                <td rowspan="5">
-                    <img class="oil-img-selector" src="" alt="오일 선택"><br>
-                    <select class="oil-selector"></select>
-                </td>
-                <td class="company-con">
-                    <label>업체명</label>
-                    <input class="company" type="text">
-                </td>
-
-                <td rowspan="5">
-                    <img class="oil-img-selector" src="" alt="오일 선택"><br>
-                    <select class="oil-selector"></select>
-                </td>
-                <td class="company-con">
-                    <label>업체명</label>
-                    <input class="company" type="text">
-                </td>
+                <th>작업1</th>
+                <th>작업2</th>
+                <th>작업3</th>
+                <th>작업4</th>
+                <th>작업5</th>
             </tr>
-            <!--루땡-->
-            <tr id="top-seal">
+            <tr>
                 <td>
-                    <img height="200px" class="top-seal-img-selector" src="" alt="루땡 선택"><br>
-                    <select class="top-seal-selector"></select>
-                </td>
-                <td>
-                    <img height="200px" class="top-seal-img-selector" src="" alt="루땡 선택"><br>
-                    <select class="top-seal-selector"></select>
-                </td>
-                <td>
-                    <img height="200px" class="top-seal-img-selector" src="" alt="루땡 선택"><br>
-                    <select class="top-seal-selector"></select>
-                </td>
-                <td>
-                    <img height="200px" class="top-seal-img-selector" src="" alt="루땡 선택"><br>
-                    <select class="top-seal-selector"></select>
-                </td>
-                <td>
-                    <img height="200px" class="top-seal-img-selector" src="" alt="루땡 선택"><br>
-                    <select class="top-seal-selector"></select>
-                </td>
-            </tr>
-            <!--라벨-->
-            <tr id="label">
-                <td>
-                    <img width="180px" class="label-img-selector" src="" alt="라벨 선택"><br>
-                    <select class="label-selector"></select>
-                </td>
-                <td>
-                    <img width="180px" class="label-img-selector" src="" alt="라벨 선택"><br>
-                    <select class="label-selector"></select>
-                </td>
-                <td>
-                    <img width="180px" class="label-img-selector" src="" alt="라벨 선택"><br>
-                    <select class="label-selector"></select>
-                </td>
-                <td>
-                    <img width="180px" class="label-img-selector" src="" alt="라벨 선택"><br>
-                    <select class="label-selector"></select>
-                </td>
-                <td>
-                    <img width="180px" class="label-img-selector" src="" alt="라벨 선택"><br>
-                    <select class="label-selector"></select>
-                </td>
-            </tr>
-            <!--유통기한,수입원,판매원-->
-            <tr id="info">
-                <td>
-                    <div class="sub-con">
-                        <div>
-                            <label>유통기한</label><br><input class="info" type="text">
-                        </div>
-                        <div>
-                            <label>수입원</label><br><input class="info" type="text">
-                        </div>
-                        <div>
-                            <label>판매원</label><br><input class="info" type="text">
+                    <div class="selector-group">
+                        <label for="top-seal-1">상단 씰:</label>
+                        <select id="top-seal-1" class="top-seal-selector"></select>
+                        <label for="company-1">업체명:</label>
+                        <select id="company-1" class="company-selector"></select>
+                        <label for="oil-1">오일 종류:</label>
+                        <select id="oil-1" class="oil-selector"></select>
+                        <div class="image-container">
+                            <img class="top-seal-img-selector" src="" alt="">
+                            <img class="label-img-selector" src="" alt="">
+                            <img class="oil-img-selector" src="" alt="">
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="sub-con">
-                        <div>
-                            <label>유통기한</label><br><input class="info" type="text">
-                        </div>
-                        <div>
-                            <label>수입원</label><br><input class="info" type="text">
-                        </div>
-                        <div>
-                            <label>판매원</label><br><input class="info" type="text">
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div class="sub-con">
-                        <div>
-                            <label>유통기한</label><br><input class="info" type="text">
-                        </div>
-                        <div>
-                            <label>수입원</label><br><input class="info" type="text">
-                        </div>
-                        <div>
-                            <label>판매원</label><br><input class="info" type="text">
+                    <div class="selector-group">
+                        <label for="top-seal-2">상단 씰:</label>
+                        <select id="top-seal-2" class="top-seal-selector"></select>
+                        <label for="company-2">업체명:</label>
+                        <select id="company-2" class="company-selector"></select>
+                        <label for="oil-2">오일 종류:</label>
+                        <select id="oil-2" class="oil-selector"></select>
+                        <div class="image-container">
+                            <img class="top-seal-img-selector" src="" alt="">
+                            <img class="label-img-selector" src="" alt="">
+                            <img class="oil-img-selector" src="" alt="">
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="sub-con">
-                        <div>
-                            <label>유통기한</label><br><input class="info" type="text">
+                    <div class="selector-group">
+                        <label for="top-seal-3">상단 씰:</label>
+                        <select id="top-seal-3" class="top-seal-selector"></select>
+                        <label for="company-3">업체명:</label>
+                        <select id="company-3" class="company-selector"></select>
+                        <label for="oil-3">오일 종류:</label>
+                        <select id="oil-3" class="oil-selector"></select>
+                        <div class="image-container">
+                            <img class="top-seal-img-selector" src="" alt="">
+                            <img class="label-img-selector" src="" alt="">
+                            <img class="oil-img-selector" src="" alt="">
                         </div>
-                        <div>
-                            <label>수입원</label><br><input class="info" type="text">
-                        </div>
-                        <div>
-                            <label>판매원</label><br><input class="info" type="text">
+                    </div>
+                </td>
+                <td>
+                    <div class="selector-group">
+                        <label for="top-seal-4">상단 씰:</label>
+                        <select id="top-seal-4" class="top-seal-selector"></select>
+                        <label for="company-4">업체명:</label>
+                        <select id="company-4" class="company-selector"></select>
+                        <label for="oil-4">오일 종류:</label>
+                        <select id="oil-4" class="oil-selector"></select>
+                        <div class="image-container">
+                            <img class="top-seal-img-selector" src="" alt="">
+                            <img class="label-img-selector" src="" alt="">
+                            <img class="oil-img-selector" src="" alt="">
                         </div>
                     </div>
                 </td>
                 <td>
-                    <div class="sub-con">
-                        <div>
-                            <label>유통기한</label><br><input class="info" type="text">
-                        </div>
-                        <div>
-                            <label>수입원</label><br><input class="info" type="text">
-                        </div>
-                        <div>
-                            <label>판매원</label><br><input class="info" type="text">
+                    <div class="selector-group">
+                        <label for="top-seal-5">상단 씰:</label>
+                        <select id="top-seal-5" class="top-seal-selector"></select>
+                        <label for="company-5">업체명:</label>
+                        <select id="company-5" class="company-selector"></select>
+                        <label for="oil-5">오일 종류:</label>
+                        <select id="oil-5" class="oil-selector"></select>
+                        <div class="image-container">
+                            <img class="top-seal-img-selector" src="" alt="">
+                            <img class="label-img-selector" src="" alt="">
+                            <img class="oil-img-selector" src="" alt="">
                         </div>
                     </div>
-                </td>
-            </tr>
-            <!--생산수량-->
-            <tr id="production">
-                <td>
-                    <label>생산수량</label><br><input maxlength="100000" value="0" class="count" type="number">개
-                </td>
-                <td>
-                    <label>생산수량</label><br><input value="0" class="count" type="number">개
-                </td>
-                <td>
-                    <label>생산수량</label><br><input value="0" class="count" type="number">개
-                </td>
-                <td>
-                    <label>생산수량</label><br><input value="0" class="count" type="number">개
-                </td>
-                <td>
-                    <label>생산수량</label><br><input value="0" class="count" type="number">개
                 </td>
             </tr>
         </table>
-    
     </div>
-    <script src="index.js" ></script>
+    <script src="index.js"></script>
 </body>
 </html>

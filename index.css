@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100..900&display=swap');
-.container {
+/* .container {
     text-align: center;
     padding: 20px;
     font-family: 'Jua',serif;
@@ -57,6 +57,7 @@ th {
     height: 60px;
 }
 /* input */
+/*
 .info{
     width: 200px;
     padding: 8px;
@@ -84,6 +85,7 @@ th {
     margin: 10px;
 }
 /* select */
+/*
 .oil-selector{
     width: 300px;
     padding: 8px;
@@ -109,4 +111,44 @@ th {
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 5px;
+} */
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jua',serif;
+    align-items: center;
+    margin: 20px;
+}
+.selector-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+select {
+    font-family: 'Jua',serif;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
 }
