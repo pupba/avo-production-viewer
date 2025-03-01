@@ -223,7 +223,6 @@ oilSelector.forEach((selector, index) => {
                 // 오일 이미지 경로 설정 - 버전에 맞게 경로 설정
                 const oilPath = `./images/oil/${selectedCompany.name}/${selectedOil.name}${selectedVersion}.png`;
                 oilImgSelector[index].src = oilPath;
-                oilImgSelector[index].width=300;
                 oilImgSelector[index].alt = `${selectedCompany.name} ${selectedOil.name} ${selectedVersion} 오일`;
             });
 
@@ -248,7 +247,6 @@ oilSelector.forEach((selector, index) => {
             // 오일 이미지 경로 설정
             const oilPath = `./images/oil/${selectedCompany.name}/${selectedOil.name}.png`;
             oilImgSelector[index].src = oilPath;
-            oilImgSelector[index].width=300;
             oilImgSelector[index].alt = `${selectedCompany.name} ${selectedOil.name} 오일`;
         }
     });

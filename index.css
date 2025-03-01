@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-select {
+select,input {
   font-family: 'Jua', serif;
   margin: 15px;
   padding: 10px;
@@ -24,6 +24,9 @@ select {
   font-size: 24px; /* 드롭다운 폰트 크기 증가 */
 }
 
+input{
+  color:rgb(0, 89, 255)
+}
 .image-container {
   display: flex;
   flex-direction: column; /* 세로 방향으로 변경 */
@@ -33,7 +36,7 @@ select {
 }
 
 img {
-  max-width: 1000px; /* 이미지 최대 너비 증가 */
+  max-width: 400px; /* 이미지 최대 너비 증가 */
   max-height: 2000px; /* 이미지 최대 높이 증가 */
   margin: 15px 0; /* 상하 여백 추가 */
 }
@@ -41,7 +44,7 @@ img {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 th, td {
@@ -62,21 +65,21 @@ h1 {
   font-size: 48px; /* 제목 폰트 크기 증가 */
   margin-bottom: 30px;
 }
-
 /* 버전 선택기 스타일 */
 .version-selector {
   font-family: 'Jua', serif;
   margin: 15px;
   padding: 10px;
-  width: 300px;
+  width: 70%;
   font-size: 24px;
 }
 
-/* 라벨과 오일 이미지 구분을 위한 스타일 */
-.label-img-selector {
-  margin-bottom: 20px;
+.top-seal-img-selector{
+  width: 40%;
 }
-
-.oil-img-selector {
-  margin-top: 20px;
+.label-img-selector{
+  width: 70%;
+}
+.oil-img-selector{
+  width: 100%;
 }
