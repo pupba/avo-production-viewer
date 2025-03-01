@@ -2,7 +2,7 @@
 const topSeals = [
     {id:"0", name:"없음", path:""},
     {id:"1", name:"검은색", path:"./images/top_seal/1.png"},
-    {id:"2", name:"검은색 손잡이", path:"./images/top_seal/2.png"},
+    {id:"2", name:"검은색 Easy", path:"./images/top_seal/2.png"},
     {id:"3", name:"노랑색", path:"./images/top_seal/3.png"},
     {id:"4", name:"녹색", path:"./images/top_seal/4.png"},
     {id:"5", name:"보라색", path:"./images/top_seal/5.png"},
