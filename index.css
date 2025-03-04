@@ -54,7 +54,7 @@ input {
 img {
   max-width: 100%;
   height: auto;
-  margin: 0.4em 0;
+  margin: 0.1em 0;
   object-fit: contain;
 }
 
@@ -69,14 +69,15 @@ table {
 
 th, td {
   border: 1px solid #ddd;
-  padding: 0.4em;
+  padding: 0.1em;
+  margin: 0;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 1em;
-  max-width: 25%; /* 각 셀이 테이블 너비의 25%를 넘지 않도록 설정 */
-  width: 25%; /* 모든 셀의 너비를 동일하게 설정 */
+  max-width: 40%; /* 각 셀이 테이블 너비의 25%를 넘지 않도록 설정 */
+  width: 40%; /* 모든 셀의 너비를 동일하게 설정 */
 }
 
 th {
