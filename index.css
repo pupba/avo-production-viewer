@@ -51,6 +51,15 @@ input {
   width: 100%;
 }
 
+.image-container-oil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8em;
+  width: 100%;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -147,21 +156,30 @@ h1 {
 /* 큰 디스플레이 (40인치 TV) */
 @media screen and (min-width: 1201px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .container {
     max-width: 95vw;
     margin: 0 auto;
+    font-size: 1.5vh;
   }
   
   .oil-img-selector {
-    max-height: 45vh;
+    max-height: 200vh;
   }
   
   .top-seal-img-selector,
   .label-img-selector {
-    max-height: 30vh;
+    max-height: 100vh;
+  }
+  input,
+  label,
+  select{
+    font-size: 1.5vh;
+  }
+  .image-container-oil > .oil-img-selector{
+    width: 15em;
   }
 }
 
