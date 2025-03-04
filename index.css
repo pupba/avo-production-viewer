@@ -176,10 +176,16 @@ h1 {
   input,
   label,
   select{
-    font-size: 1.5vh;
+    font-size: 3vh;
   }
   .image-container-oil > .oil-img-selector{
     width: 15em;
+  }
+  #today{
+    width:20%
+  }
+  th{
+    font-size: 4vh;
   }
 }
 
@@ -197,9 +203,13 @@ h1 {
 #caption{
   text-align: left;
   margin-bottom: 1em;
+  width: auto;
+  font-size: 2.2vh;
 }
 #today{
-  width: 7%;
+  width: 100%;
+  font-size: 2.2vh;
+  text-align: center;
   color: #2c3e50;
 }
 #title{
