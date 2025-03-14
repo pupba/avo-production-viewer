@@ -162,7 +162,7 @@ h1 {
   .container {
     max-width: 95vw;
     margin: 0 auto;
-    font-size: 1.5vh;
+    font-size: 1vh;
   }
   
   .oil-img-selector {
@@ -176,7 +176,7 @@ h1 {
   input,
   label,
   select{
-    font-size: 3vh;
+    font-size: 2vh;
   }
   .image-container-oil > .oil-img-selector{
     width: 15em;
@@ -185,12 +185,12 @@ h1 {
     width:20%
   }
   th{
-    font-size: 4vh;
+    font-size: 2vh;
   }
 }
 
 .top-seal-img-selector{
-  width: 11vh;
+  width: 20vh;
 }
 
 .count{
@@ -204,11 +204,11 @@ h1 {
   text-align: left;
   margin-bottom: 1em;
   width: auto;
-  font-size: 2.2vh;
+  font-size: 1.5vh;
 }
 #today{
   width: 100%;
-  font-size: 2.2vh;
+  font-size: 1.5vh;
   text-align: center;
   color: #2c3e50;
 }
